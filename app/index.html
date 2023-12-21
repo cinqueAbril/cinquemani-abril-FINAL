@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cinquemani-abril-FINAL</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="manifest" href="../manifest.json">
+    
+    <link rel="shortcut icon" type="image/nutrifood" href="imagenes/iso.png">
+
+</head>
+
+<body>
+
+    <header class="container-fluid bg-header py-2">
+        <a class="navbar-brand ps-5" href="#"><img src="imagenes/NutriFood.png" alt="logo" width="150" height="150"
+                class="img-fluid"></a>
+
+        <nav class="navbar navbar-expand fixed-bottom" data-bs-theme="dark">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="barra">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#recetas">Recetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#filosofia">Filosofía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#conocenos">Conocenos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--recetas-->
+    <span id="recetas" class="ancla"></span>
+
+    <section class="container-lg p-4 bg1 bg-body-tertiary mt-3">
+        <h2 class="titulo text-center py-4">Recetas Saludables</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mx-2 mt-1">
+            <div class="col">
+
+                <div class="card comida h-100">
+                    <img src="imagenes/mousse-arandano.jpg" class="card-img-top" alt="mousse de arandanos">
+                    <div class="card-body">
+                        <h5 class="mousse">Mousse de Arándanos</h5>
+
+
+                        <p class="d-inline-flex gap-1">
+                            <button class="btn fw-semibold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
+                                id="ingredientes">
+                                ver ingredientes
+                            </button>
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card-body">
+
+                                <ul class="ingredientes">
+                                    <li>
+                                        1 taza de arándanos frescos lavados.
+                                    </li>
+                                    <li>
+                                        1/2 taza de azúcar.
+                                    </li>
+                                    <li>
+                                        200g de yogur natural o griego
+                                    </li>
+                                    <li>
+                                        200g de queso crema.
+                                    </li>
+                                    <li>
+                                        200g de crema para batir.
+                                    </li>
+                                    <li>
+                                        1/2 cucharadita de café de sal.
+                                    </li>
+                                    <li>
+                                        Hoja de menta, frutos secos o rojos para decorar.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card comida h-100">
+                    <img src="imagenes/fresones balsamicos a la naranja.jpg" class="card-img-top"
+                        alt="fresones balsamicos a la naranja">
+                    <div class="card-body">
+                        <h5 class="fresones">Fresones a la Naranja</h5>
+
+                        <p>
+                            <button class="btn fw-semibold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
+                                id="ingredientes">
+                                ver ingredientes
+                            </button>
+                        </p>
+
+                        <div class="collapse" id="collapseExample">
+                            <div class="card-body">
+                                <ul class="ingredientes">
+                                    <li>
+                                        5 fresones grandes, dulces y jugosos.
+                                    </li>
+                                    <li>
+                                        1 naranja pequeña.
+                                    </li>
+                                    <li>
+                                        15ml vinagre balsámico.
+                                    </li>
+                                    <li>
+                                        1g sal gruesa.
+                                    </li>
+                                    <li>
+                                        15ml sirope de ágave o miel.
+                                    </li>
+                                    <li>
+                                        250g queso fresco batido desnatado tipo quark.
+                                    </li>
+                                    <li>
+                                        Hoja de menta, frutos secos o rojos para decorar.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card comida h-100">
+                    <img src="imagenes/pastelito chocolate.jpg" class="card-img-top" alt="pastelitos de chocolate">
+                    <div class="card-body">
+                        <h5 class="pastelito">Pastelitos de Chocolate</h5>
+
+                        <p>
+                            <button class="btn fw-semibold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
+                                id="ingredientes">
+                                ver ingredientes
+                            </button>
+                        </p>
+
+                        <div class="collapse" id="collapseExample">
+                            <div class="card-body">
+                                <ul class="ingredientes">
+                                    <li>
+                                        200g chocolate negro sin azúcar.
+                                    </li>
+                                    <li>
+                                        120g mantequilla.
+                                    </li>
+                                    <li>
+                                        5ml escencia de vainilla.
+                                    </li>
+                                    <li>
+                                        4 huevos M.
+                                    </li>
+                                    <li>
+                                        70g edulcorante apto equivalente
+                                    </li>
+                                    <li>
+                                        10g cacao puro en polvi sin azúcar.
+                                    </li>
+                                    <li>
+                                        Hoja de menta, frutos secos o rojos para decorar.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <!--fin recetas-->
+
+
+    <!--filosofia-->
+    <span id="filosofia" class="ancla"></span>
+
+    <section class="container-lg p-4 bg1 bg-body-tertiary mt-3">
+        <h2 class="titulo text-center py-4">Nuestra Filosofía</h2>
+
+
+        <div class="row text-center pt-5 pb-5">
+
+            <div class="col-sm-4 col-xl-4 col-md-4 numerouno">
+                <h3 class="display-1 fw-semibold">
+                    <i class="bi bi-emoji-smile-fill icon"></i>
+                </h3>
+                <p class="lead fw-semibold ">Sano y rico</p>
+
+                <p class="filosofia-texto">
+                    Combinación irresistible de sabor <br>
+                    y beneficios para tu bienestar
+                </p>
+            </div>
+
+
+            <div class="col-sm-4 col-xl-4 col-md-4 numerotres">
+                <h3 class="display-1 fw-semibold">
+                    <i class="bi bi-heart-fill icon"></i>
+                </h3>
+                <p class="lead fw-semibold ">Variedad</p>
+
+                <p class="filosofia-texto">
+                    Diferentes recetas repletas de sabores <br> que generan amor a primera pizca
+                </p>
+
+            </div>
+
+
+
+            <div class="col-sm-4 col-xl-4 col-md-4 numerodos">
+                <h3 class="display-1 fw-semibold">
+                    <i class="bi bi-clock-fill icon"></i>
+                </h3>
+                <p class="lead fw-semibold ">Desde Cero</p>
+
+                <p class="filosofia-texto">
+                    Consejos prácticos y fáciles para <br>una alimentación nutritiva y deliciosa
+                </p>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <!--fin filosofia-->
+
+    <!--conocenos-->
+    <span id="conocenos" class="ancla"></span>
+
+    <section class="container-lg p-4 bg1 bg-body-tertiary mt-3">
+        <h2 class="titulo text-center py-4">Conocenos</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10 mb-3">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/yP1-FRgMYhw?si=TLQtbXbumX4oG-ms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+    </section>
+        
+    </section>
+    <!--fin conocenos-->
+
+    <!--nosotros-->
+    <span id="nosotros" class="ancla"></span>
+
+    <section class="container-lg p-4 bg-body-tertiary mt-3">
+
+        <h2 class="titulo text-center py-4">Sobre Nosotros</h2>
+        <div class="row">
+            <div class="col-md m-md-3">
+
+                <img src="imagenes/nosotros1.jpg" alt="nosotros" class="img-fluid mb-3">
+
+                <h3 class="fw-bold">¿Por qué <text class="titulo-nutrifood1">elegirnos</text>?</h3>
+
+                <p>
+                    Elegir Nutrifood como guía para una alimentación saludable se fundamenta en su enfoque integral
+                    y educativo.
+                    En primer lugar, la plataforma se destaca al convertir cada receta en una lección sobre
+                    ingredientes
+                    nutritivos y porciones adecuadas, proporcionando información detallada para tomar decisiones
+                    informadas.
+                </p>
+
+                <p>
+                    Además, Nutrifood va más allá de ser una simple página de recetas; se convierte en un instructor
+                    virtual que
+                    facilita la adopción gradual de hábitos alimenticios saludables. Esta característica la
+                    convierte en un
+                    aliado esencial para la transformación sostenible de la alimentación diaria, mejorando tanto la
+                    salud física
+                    como mental.
+                </p>
+
+                <p>
+                    La promoción de la salud no implica renunciar al placer culinario con Nutrifood. Sus recetas
+                    creativas y
+                    deliciosas demuestran que es posible disfrutar de la comida mientras se prioriza el bienestar.
+                </p>
+
+                <p>
+
+                    Nutrifood destaca por personalizar planes de comidas, facilitando la transición a hábitos
+                    alimenticios
+                    saludables y educativos.
+            </div>
+
+            <div class="col-md m-md-3">
+                <div class="row">
+                    <div class="col-12 order-1 order-md-0">
+
+                        <h3 class="fw-bold">¡Somos <text class="titulo-nutrifood1">Nutri Food</text>!</h3>
+
+                        <p>
+                            Somos tu elección para disfrutar de comidas saludables y deliciosas. Con un menú creado por
+                            chefs
+                            apasionados, ofrecemos opciones frescas y equilibradas para satisfacer tu paladar.
+
+                        </p>
+                        <p>
+                            Somos tu elección consciente para un estilo de vida saludable. En un ambiente acogedor, la
+                            comunidad
+                            se reúne para disfrutar de opciones conscientes, destacando la transparencia en ingredientes
+                            y
+                            nuestra
+                            contribución a un mundo más saludable.
+
+                        </p>
+                        <p>
+                            Creemos en que la comida saludable puede ser sabrosa, accesible y emocionante. En el núcleo
+                            de
+                            nuestra
+                            misión está inspirar cambios positivos en tu vida a través de una experiencia gastronómica
+                            que
+                            no solo
+                            alimenta tu cuerpo, sino también tu espíritu.
+                        </p>
+                        <p>Además, ofrecemos actividades en grupo que fomentan la camaradería y te
+                            brindan la oportunidad
+                            de conocer a personas con intereses similares.
+                        </p>
+                        <p>
+                            Únete a nosotros en este viaje hacia un estilo de vida más saludable y delicioso.
+                        </p>
+                    </div>
+                    <div class="col-12">
+
+                        <img src="imagenes/nosotros2.jpg" alt="nosotros" class="img-fluid mb-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--fin nosotros-->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

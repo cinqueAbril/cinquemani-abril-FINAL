@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../imagenes/fondo.jpg);
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, repeat-y;
+    background-size: cover;
+}
+
+.bg-header {
+    background-color: #c3d6ae;
+}
+
+nav{
+    background-color: #c3d6ae;
+}
+
+#logo {
+    width: 134px;
+    height: 50px;
+    font-size: 0;
+    background: url("../imagenes/NutriFood.png");
+    margin: auto;
+}
+
+.navbar-nav {
+    width: 100%;
+    background: none;
+    flex-wrap: nowrap;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar.container-fluid {
+    padding: 0;
+}
+
+.nav-item {
+    flex: 1;
+    padding: 0;
+    display: flex;
+}
+
+.nav-link {
+    background-color: none;
+    text-align: center;
+    border: 3px solid #0f1b02;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+    color: #3c5b1a;
+}
+
+.nav-link:hover{
+    color: #0f1b02;
+}
+
+.ancla {
+    position: relative;
+    top: -4.5rem;
+}
+
+section {
+    display: none;
+    margin-bottom: 3.5rem;
+}
+
+section:last-of-type {
+    display: block;
+}
+
+#recetas:target~section,
+#filosofia:target~section,
+#conocenos:target~section {
+    display: none;
+}
+
+span:target+section {
+    display: block !important;
+}
+
+.titulo{
+    color: #55862d;
+}
+
+.titulo:hover{
+    color: #0f1b02;
+}
+
+.icon{
+    color: #55862d;
+}
+
+.icon:hover{
+    color: #2a4a09;
+    transition: 0.3s ease-in-out;
+}
+
+.titulo-nutrifood1 {
+    color: #55862d;
+}
+
+.titulos {
+    color: #55862d;
+    text-align: center;
+}
+
+.comida {
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.comida:hover {
+    border-color: #0f1b02;
+
+}
+
+.comida:hover {
+    transform: scale(1.03);
+}
+
+#ingredientes {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #55862d;
+}
+
+#ingredientes:hover {
+    background-color: #2a4a09;
+    ;
+    color: #55862d;
+    transition: 0.3s ease-in-out;
+
+
+}
+
+.ingredientes li {
+    text-align: left;
+}
